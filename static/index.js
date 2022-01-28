@@ -441,10 +441,10 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             SubmitResults();
         }
 
-        if (cps <= 30) return '志摩还没开嗓';
-        if (cps <= 50) return '这够听吗？！';
-        if (cps <= 100)  return '等等，志摩发现了怎么办？';
-        if (cps <= 150) return '志摩好累。';
+        if (cps <= 3) return '志摩还没开嗓';
+        if (cps <= 5) return '这够听吗？！';
+        if (cps <= 8)  return '等等，志摩发现了怎么办？';
+        if (cps <= 10) return '志摩好累。';
         return '爽够没？';
     }
 
